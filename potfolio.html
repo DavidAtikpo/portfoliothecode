@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thecode2</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="potfolio.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <div class="container bar">
+            <a href="#accueil" class="logo">
+                <img src="logo.jpg" alt="logo">
+                <span class="nom-site">Thecode<sup class="indice">2</sup></span>
+            </a>
+            <button type="button" class="menu-btn" id="menu-btn" aria-label="Ouvrir le menu">☰</button>
+        </div>
+
+
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a propos">A propos</a></li>
+                <li><a href="#competences">Competences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero__slides">
+                <article class="hero__slide is-active">
+                    <div class="hero__bg" style="background-image: url(slide1.jpg);"></div>
+                    <div class="cover"></div>
+
+                    <div class="hero__content">
+                        <h1>Developpeur Web</h1>
+                        <p>je cree des sites web moderne, accessible et adptes a tous les ecrans</p>
+                        <a herf="#" class="hero__btn">voir mes projets</a>
+                    </div>
+
+                </article>
+
+                <article class="hero__slide">
+                    <div class="hero__bg" style="background-image: url(slide2.jpg);"></div>
+                    <div class="cover"></div>
+
+                    <div class="hero__content">
+                    <h1>Html, CSS, JavaScript</h1>
+                    <p>Des interfaces soignees avec code claire et facile a maintenir</p>
+                    <a href="#" class="hero__btn">Mes competences</a>
+                    </div>
+
+                </article>
+
+                <article class="hero__slide">
+                    <div class="hero__bg" style="background-image: url(slide3.jpg);"></div>
+                    <div class="cover"></div>
+
+                    <div class="hero__content">
+                    <h1>Travaillons ensemble</h1>
+                    <p>Disponible pour des projets, stages ou collaborations</p>
+                    <a href="#" class="hero__btn">Me contacter</a>
+                    </div> 
+                </article>
+            </div>
+
+            <div class="hero__dots" role="tablist" aria-label="choisir une diapositive">
+                <button type="button" class="hero__dot is-active" aria-label="diapositive 1" aria-current="true"></button>
+                <button type="button" class="hero__dot" aria-label="diapositive 2"></button>
+                <button type="button" class="hero__dot" aria-label="diapositive 3"></button>
+            </div>
+        </section>
+     
+        <!-- a propos -->
+        <section class="section" id="a propos">
+            <div class="container">
+                <h2 class="section-titre">A propos de moi</h2>
+                <div class="about">
+                    <div class="about__text">
+                        <p>Je suis <strong>Thecode2</strong>, developpeur web passionne
+                             par la creation
+                             d'experiences numeriques claire, performantes et accessible</p>
+                        <p>J'aime transformer des idees en interfaces soignes du prototype au deployement, 
+                            et en m'appuyant sur des base solides en HTML, CSS ET JavaScript
+                        </p>
+                    </div>
+                    <ul class="about__list" >
+                        <li><span class="about__label">Specialite</span> Frontend et interfaces responsive</li>
+                        <li><span class="about__label">Approche</span> Code propre, maintenable et documente</li>
+                        <li><span class="about__label">Disponibilite</span> Projets, stages et collaborations</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- competences -->
+        <section class="section">
+            <div>
+                <h2>Mes competences</h2>
+
+            </div>
+        </section>
+
+        <!-- projets -->
+        <section class="section">
+            <div>
+                <h2>Mes projets</h2>
+
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="section">
+            <div>
+                <h2>Contactez-moi</h2>
+
+            </div>
+        </section>
+    </main>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
